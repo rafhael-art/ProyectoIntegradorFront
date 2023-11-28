@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-register',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './home.component.html'
+  templateUrl: './register.component.html'
 })
-export default class HomeComponent {
+export default class RegisterComponent {
 
 }
