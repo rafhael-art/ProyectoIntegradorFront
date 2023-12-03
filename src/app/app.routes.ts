@@ -12,7 +12,7 @@ export const routes: Routes = [
       },
       {
         path: 'nosotros',
-        loadComponent: () => import('./pages/home/home.component')
+        loadComponent: () => import('./pages/nosotros/nosotros.component')
       },
       {
         path: 'empresas',
